@@ -1,0 +1,144 @@
+@import "http://webfonts.ru/import/consola.css";
+@import "http://webfonts.ru/import/lasco.css";
+@import "http://webfonts.ru/import/gagalin.css";
+
+/*
+============================================================
+Сброс
+============================================================
+*/
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+/*
+============================================================
+Текстовое оформление
+============================================================
+*/
+h3,p,li,a{
+	color: #F2DCDB;
+}
+.header_nav a, h1, h2 {
+	color: #007777;
+}
+h1 {
+    font-family:'Gagalin', Arial, sans-serif;
+   }
+h2{
+	font-family: 'Lasco', Arial, sans-serif;
+}
+
+h3, p, li{
+	font-family: 'Consola Mono', Arial, sans-serif;
+}
+h3, a{
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header_nav{
+	font-size: 18px;
+}
+
+/*
+============================================================
+Визуальное оформление
+============================================================
+*/
+body{
+	background-color:#002020;
+}
+.column_one{
+	padding: 5px;
+}
+p, h3{
+	margin-left: 10px;
+}
+.wrapper li{
+	margin-left: 35px;
+}
+.inbox h3{
+	margin-left: 5px;
+}
+
+.header_in, .header_nav, h2 {
+	text-align: center;
+}
+.header_nav{
+	border-radius: 2px;
+
+}
+.header{
+	background-color: #EBB7B7;
+}
+.wrapper{
+	background-color:#002020;
+}
+.wrapper, .header{
+	display: none;
+}
+.picture{
+	height: 480px;
+	width:100%;
+	background: url("http://orig00.deviantart.net/b69d/f/2015/260/e/4/flat_landscape_by_ben_aka_riot-d8s19au.png") 50% 50% no-repeat;
+	background-size: 100%;
+}
+/*
+============================================================
+Сетка
+============================================================
+*/
+header{
+	width: 100%;
+}
+.header{
+	box-sizing: border-box;
+	border-bottom: 10px double #F2DCDB;
+	vertical-align: middle;
+	padding: 5px;
+}
+.header_in, .header_nav{
+	display: inline-block;
+	vertical-align: middle;
+	width: 26%;
+	margin: 0 4%;
+}
+.header_nav{
+	margin-top: 5%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.header_menu{
+	width: 300px;
+	height: 50px;
+	padding: 5px 0;
+}
+
+.column{
+	border: 1px dashed #F2DCDB;
+	display: inline-block;
+	width: 46%;
+	padding: 5px;
+	margin: 1.5% 1.5%;
+	vertical-align: top;
+}
+.inbox{
+	box-sizing: border-box;
+	margin-bottom: 1.5%;
+	padding: 1.5;
+}
+.wrapper{
+	box-sizing: border-box;
+	border: 1px dashed #F2DCDB;
+}
+
+/*
+============================================================
+Романюк Николай
+30,05,2016
+============================================================
+*/
